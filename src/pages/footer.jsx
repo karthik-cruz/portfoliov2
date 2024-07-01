@@ -19,8 +19,8 @@ const footer = () => {
                     <p className="mb-0 font-semibold">SOCIAL</p>
                     <div className='flex items-center gap-3'>
                         <ImLinkedin onClick={() => window.open("https://www.linkedin.com/in/karthik-s-20b0a9276/", "_blank")} className='cursor-pointer' />
-                        <GrInstagram className='cursor-pointer' />
-                        <FaGithub className='cursor-pointer' />
+                        <GrInstagram onClick={() => window.open("https://www.instagram.com/_.mr_cruzz/", "_blank")} className='cursor-pointer' />
+                        <FaGithub onClick={() => window.open("https://github.com/karthik-cruz", "_blank")} className='cursor-pointer' />
                     </div>
                 </div>
             </div>
